@@ -1,0 +1,97 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 40px 0;
+    padding: 14px 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-default .navbar-nav li {
+    padding: 0;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #eaeaea;
+    font-family: "Raleway",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 7px 30px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-default .navbar-nav li a.current {
+    color: #65a2c4;
+}
+
+.navbar-default .navbar-nav li a:focus {
+    color: #65a2c4;
+    outline: none;
+}
+
+.navbar-default .navbar-nav li:last-child a {
+    padding-right: 15px;
+}
+
+.navbar-default .navbar-nav li:hover a {
+    color: #65a2c4;
+}
+
+.navbar-default.shrink {
+    background: #0c0c0c;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.navbar-default.shrink li a {
+    font-weight: 400;
+    padding: 7px 25px;
+}
+
+.navbar-brand {
+    height:80px;
+   
+}
+
+.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 100%;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-toggle {
+    padding: 9px 7px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #65a2c4 ;
+    border: 0;
+    border-radius: 3px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #accddf ;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 18px;
+    height: 2px;
+    border-radius: 0;
+}

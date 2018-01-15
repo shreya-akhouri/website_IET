@@ -1,0 +1,67 @@
+.box1 {
+  background:#fff;
+  transition:all 0.2s ease;
+  
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 10px 10px 10px;
+  min-height:340px;
+}
+
+.box1:hover {
+  border:2px solid #65a2c4;
+  background: #65a2c4;
+}
+
+
+
+}
+
+.box1 span.box1-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box1 .box1-content {
+  padding: 10px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box1 .box1-content p {
+  color:#515c66;
+  text-transform:none;
+}
+.box1:hover .description2{
+    color: #fff;
+}
+
+.service-icon2{
+   
+    
+    margin: 0 auto 10px;
+    transition: all 0.5s ease 0s;
+}
+.box1:hover .service-icon2{
+    transform: scale(1.20);
+    color:#fff;
+
+   
+}
+.service-icon2:hover{
+  color:#fff;
+}
+
+.box1 .service-icon2 i{
+    font-size: 50px;
+    text-shadow: -2px 0 #65a2c4, 0 2px #65a2c4, 2px 0 #65a2c4, 0 -2px #65a2c4;
+    color: #fff;
+    line-height: 100px;
+}
+.box1 .service-icon2:hover i{
+color: #ffffff;
+}

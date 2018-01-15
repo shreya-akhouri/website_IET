@@ -1,0 +1,18 @@
+.header img {
+  float: left;
+
+  border: 1px solid tansparent;
+  position: relative;
+  left: 0;
+  width: 100%;
+  height:auto; 
+  overflow-y: hidden;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  color:#fff;
+  text-align:center;
+}
